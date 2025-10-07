@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val btn = findViewById<MaterialButton>(R.id.btnNxt)
 
         btn.setOnClickListener {
-            Toast.makeText(this, "This is a Toast", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Guess Kariye", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, OptionsActivity::class.java)
             startActivity(intent)
         }
